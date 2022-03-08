@@ -132,6 +132,17 @@ header a:hover, footer a:hover{
   cursor: crosshair;
 }
 
+.socmed {
+  margin-top: 88px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+.socmed img {
+  padding: 10px;
+  height: 50px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
   /*
   ========================================
   Nav Settings
