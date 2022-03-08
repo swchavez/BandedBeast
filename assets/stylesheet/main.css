@@ -341,6 +341,86 @@ padding-bottom: 15px;
   ========================================
 */
 
+.abouttrio img{
+  text-align: center;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  padding-top: 15px;
+  width: 300px;
+}
+
+.aboutbbleft img{
+  text-align: center;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  padding-top: 5px;
+  width: 300px;
+  margin: 70px;
+}
+
+.aboutbbleft{
+  text-align: center;
+  padding-top: 30px;
+  background: #b37d43;
+}
+
+.aboutbb h3{
+  font-size: 30px;
+  padding: 20px 0 25px 0;
+  text-align: center;
+}
+
+.aboutbb p{
+  line-height: 30px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.aboutproducts{
+text-align: center;
+font-size: 60px;
+background-color: #b37d43;
+color: black;
+cursor: crosshair;
+padding: 50px 0;
+}
+.aboutproducts a{
+  color: black
+}
+.aboutproducts a:hover{
+  cursor: crosshair;
+  color: red
+}
+
+.doubpic img{
+  margin-left: 70px;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  width: 300px;
+}
+
+.bridle h3{
+  background-color: #b37d43;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  padding: 30px 0 20px 0;
+}
+.bridle p {
+  line-height: 29px;
+  padding: 15px;
+}
+
+.bottombutton{
+  text-align: center;
+  padding: 10px;
+  background: #b37d43;
+}
+
 /* Colors:
 #9b6a36
 #edebe5 */
