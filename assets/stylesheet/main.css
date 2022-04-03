@@ -342,6 +342,19 @@ padding-top: 70px;
   ========================================
 */
 
+.strapproduct img{
+  text-align: center;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  padding-top: 15px;
+  margin-left: 90px;
+  width: 200px;
+}
+
+.paypalstrap {
+  padding-top: 100px;
+}
 
   /*
   ========================================
