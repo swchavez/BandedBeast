@@ -34,34 +34,26 @@
         (662) 763-6711
       </p>
     </section>
-    <section>
-    <form action="#" method="post">
-
-      <fieldset class="register-group">
-              
-        <label>
-          Name
-          <input type="text" name="name" placeholder="Full Name" required>
-        </label>
+ </section>
     
-        <label>
-          Email
-          <input type="email" name="email" placeholder="Email Address" required>
-        </label>
-
-        <label>
-          Comments
-          <textarea name="comments"></textarea>
-        </label>
-    
-      </fieldset>
-    
-      <input class="btn btn-default" type="submit" name="submit" value="submit">
-    
+    <form action="mailto:contact@BandedBeast.com" method="post" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+  
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" required></textarea>
+  
+      <button type="submit">Submit</button>
     </form>
   </section>
 
-  </section>
+ 
     
     <section class="socmed">
       <a href="https://www.facebook.com/BandedBeast">
