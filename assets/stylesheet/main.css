@@ -1,0 +1,1037 @@
+/* Colors:
+#9b6a36
+#edebe5 */
+
+/******************************************
+  /* Reset
+  /*******************************************/
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  /******************************************
+  /* Styles
+  /*******************************************/
+
+body{
+  background: #f4f4f4;
+  margin: 0 50px;
+  overflow-x: hidden;
+}
+
+
+/* 
+Header & Footer
+*/
+/* Header Styling */
+.primary-header {
+  background-color: #9b6a36; /* Primary green color for the background */
+  padding: 10px 0; /* Add padding for spacing */
+}
+
+.primary-nav {
+  display: flex; /* Align items horizontally */
+  justify-content: center; /* Center the navigation items */
+}
+
+.primary-nav ul {
+  list-style: none; /* Remove default list bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Align items horizontally */
+}
+
+.primary-nav li {
+  margin: 0 15px; /* Space out the navigation items */
+}
+
+.primary-nav a {
+  color: #edebe5; /* Secondary gold color for the text */
+  text-decoration: none; /* Remove underline from links */
+  font-family: 'Lato', sans-serif; /* Match the font to your website’s style */
+  font-weight: 300; /* Use a lighter font weight */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.primary-nav a:hover {
+  color: #ffffff; /* Change text color on hover */
+}
+
+/* Footer Styling */
+.primary-footer {
+  background-color: ; /* Match header background color */
+  padding: 20px 0; /* Add padding for spacing */
+  text-align: center; /* Center footer content */
+}
+
+.primary-footer .primary-nav ul {
+  justify-content: center; /* Center footer navigation items */
+}
+
+.primary-footer .primary-nav a {
+  color: #9b6a36; /* Secondary gold color for the text */
+  text-decoration: none; /* Remove underline from links */
+  font-family: 'Lato', sans-serif; /* Match the font to your website’s style */
+  font-weight: 300; /* Use a lighter font weight */
+}
+
+.primary-footer .primary-nav a:hover {
+  color: #9b6a36; /* Change text color on hover */
+}
+
+
+/* 
+social media
+*/
+.socmed {
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Center the icons */
+  gap: 30px; /* Equal spacing between icons */
+  padding: 20px 0; /* Padding to space it from other content */
+  margin-top: 50px; /* Adds some space above */
+}
+
+.socmed img {
+  width: 40px; /* Adjust the size of the icons */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.socmed img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  color: #9b6a36;
+  cursor: crosshair;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+  border: 1px solid black;
+  cursor: crosshair;
+  padding: 10px 30px;
+  }
+
+
+.btn a{
+  color: rgb(146, 146, 146);
+}
+
+  /*/
+  SC footer
+  /*/
+  .sc-footer {
+    text-align: right;
+    font-size: 12px;
+    color: #555;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+
+.sc-footer a {
+    color: #024C30;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.sc-footer a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.sc-footer a:hover {
+    color: #0056b3;
+}
+
+  /*
+  ========================================
+HomePage
+  ========================================
+*/
+
+.homeintro {
+  display: flex;
+  justify-content: space-between; /* Space out the content */
+  align-items: center; /* Align items vertically */
+  padding: 30px 200px 10px 200px; /* Adjust padding if needed */
+  gap: 20px; /* Add some space between the items */
+}
+
+.homeintro section {
+  flex-basis: 50%; /* Each section takes up 50% of the width */
+}
+
+.homeintro img {
+  width: 100%; /* Ensure image fills its section */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+}
+
+.homeintro p {
+  padding-bottom: 20px;
+  line-height: 1.6em; /* Adjusted for better readability */
+  font-size: 18px; /* Increase font size slightly */
+}
+
+.homeintro a{
+  font-style: italic;
+  color:#9b6a36;
+  }
+
+  .homesecond {
+    background: #b37d43; /* Background color */
+    display: flex;
+    justify-content: space-between; /* Space out the content */
+    align-items: center; /* Align items vertically */
+    padding: 30px 200px; /* Adjust padding for balance */
+    gap: 20px; /* Add space between items */
+  }
+  
+  .homesecond > section {
+    flex: 1; /* Allow each section to take up equal space */
+  }
+  
+  .homesecond img {
+    width: 100%; /* Ensure the image scales */
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    display: block;
+  }
+  
+  .homesecond h3 {
+    font-size: 28px; /* Larger font size for emphasis */
+    color: black;
+    text-decoration: underline; /* Underline style */
+    padding-bottom: 15px; /* Spacing below heading */
+    font-weight: 500; /* Font weight for the heading */
+  }
+  
+  .homesecond p {
+    line-height: 28px;
+    padding-bottom: 15px;
+    font-size: 18px; /* Font size for readability */
+  }
+  
+  #buttont {
+    margin-top: 15px; /* Space above buttons */
+  }
+  
+  .btn {
+    background-color: #9b6a36; /* Primary color for buttons */
+    color: #edebe5; /* Text color for buttons */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn a {
+    color: #edebe5; /* Ensure text color matches buttons */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .btn:hover {
+    background-color: #7a552c; /* Slightly darker shade on hover */
+  }
+  
+  /* Call-to-action section styling */
+.call-to-action {
+  background-color: #9b6a36; /* Primary color */
+  color: #edebe5; /* Text color */
+  text-align: center; /* Center the content */
+  padding: 40px 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Rounded corners for the section */
+  margin-top: 40px; /* Space above the section */
+}
+
+.call-to-action h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #edebe5; /* Button background color */
+  color: #9b6a36; /* Button text color */
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cta-btn a {
+  color: #9b6a36; /* Ensure the text color matches the button */
+  text-decoration: none; /* Remove underline */
+}
+
+.cta-btn:hover {
+  background-color: #ffffff; /* Slight color change on hover */
+}
+
+.homeclose {
+  display: flex;
+  justify-content: center;
+  justify-items: auto;
+  align-content: center;
+  align-items: center;
+  padding: 30px 200px 10px 200px;
+}
+
+.homeclose img {
+  text-align: center;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  padding-top: 15px;
+  max-width: 100%;
+}
+
+.workpic {
+padding-top: 70px;
+}
+
+/*
+  ========================================
+ Products Page
+  ========================================
+*/
+
+/* Stripe Button */
+.stripebutton {
+  text-align: center; /* Center the contents inside this div */
+  margin-top: 20px; /* Optional: Add some spacing above the button */
+}
+
+.stripebutton stripe-buy-button {
+  display: inline-block; /* Ensure the button behaves like an inline-block element */
+}
+
+/* Stripe Card */
+.stripecard {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically (optional) */
+  height: 100vh; /* Full viewport height (optional) */
+  margin: 0; /* Remove any default margin */
+}
+
+.stripecard stripe-buy-button {
+  display: block; /* Ensure the button is displayed as a block element */
+}
+
+
+/* Intro section styling */
+
+.purchase-info {
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add padding around the section */
+  background-color: #f9f9f9; /* Light background color */
+  border: 1px solid #ddd; /* Optional: Border for visual separation */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 600px; /* Maximum width of the section */
+  margin: 20px auto; /* Center the section horizontally with some margin */
+}
+
+.purchase-info p {
+  font-size: 16px; /* Font size for readability */
+  color: #333; /* Dark text color */
+  line-height: 1.5; /* Increase line height for better readability */
+}
+
+.purchase-info a {
+  color: #024C30; /* Primary color for the link */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.purchase-info a:hover {
+  text-decoration: underline; /* Add underline on hover for better UX */
+}
+
+
+.product-page-intro {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #edebe5;
+  margin-bottom: 40px;
+}
+
+.product-page-intro h1 {
+  font-size: 32px;
+  color: #9b6a36;
+  margin-bottom: 10px;
+}
+
+.product-page-intro p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Product container styling */
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: auto;
+}
+
+/* Carousel styling */
+.product-carousel {
+  width: 200px;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+  width: 200px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Product info styling */
+.product-info {
+  flex: 1;
+}
+
+.product-info h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #024C30;
+  text-align: center;
+}
+
+.product-info .description {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.product-info .price {
+  font-size: 20px;
+  color: #9b6a36;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.product-info .buy-now {
+  background-color: #024C30;
+  color: #edebe5;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-info .buy-now:hover {
+  background-color: #9b6a36;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .product {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-carousel {
+    width: 100%;
+  }
+
+  .product-info h1,
+  .product-info .description,
+  .product-info .price {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-info .buy-now {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+
+
+/*
+  ========================================
+ About Page
+  ========================================
+*/
+
+.abouttrio {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space out the images */
+  align-items: center; /* Align images vertically */
+  gap: 20px; /* Add space between the images */
+  padding: 20px; /* Optional: Add padding around the section */
+}
+
+.abouttrio section {
+  flex: 1; /* Allow each image to take up equal space */
+  text-align: center; /* Center the images */
+}
+
+.abouttrio img {
+  width: 100%; /* Ensure images take up full width of their container */
+  max-width: 300px; /* Optional: Limit the max width of the images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  transition: transform 0.3s; /* Optional: Add hover effect */
+}
+
+.abouttrio img:hover {
+  transform: scale(1.05); /* Optional: Slightly enlarge on hover */
+}
+
+.aboutbb {
+  display: flex; /* Flexbox for side-by-side layout */
+  align-items: center; /* Vertically center the content */
+  justify-content: space-between; /* Add space between the left and right sections */
+  gap: 40px; /* Optional: Adjust the spacing between the two sections */
+  padding: 20px; /* Optional: Add padding around the section */
+}
+
+.aboutbbleft {
+  flex: 1; /* Allow the left section to take up equal space */
+  text-align: center; /* Center content in the left section */
+}
+
+.aboutbbright {
+  flex: 2; /* Give the right section more space */
+  text-align: left; /* Left-align the text in the right section */
+}
+
+.aboutbbleft img {
+  width: 100%; /* Make the logo responsive */
+  max-width: 300px; /* Optional: Limit the size of the logo */
+  margin-top: 20px; /* Add some space between the buttons and the logo */
+}
+
+.btn {
+  display: block; /* Make buttons display as block elements */
+  margin: 10px auto; /* Center buttons and add spacing between them */
+  padding: 10px 20px; /* Adjust padding for buttons */
+  background-color: #024C30; /* Primary green color */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  transition: background-color 0.3s; /* Optional: Add hover effect */
+}
+
+.btn:hover {
+  background-color: #9b6a36; /* Change to secondary color on hover */
+}
+
+.btn a {
+  color: white; /* Ensure links have white text */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.aboutbbright h3 {
+  margin-bottom: 15px; /* Space between heading and paragraph */
+  font-size: 24px; /* Adjust font size */
+  color: #024C30; /* Primary green color */
+}
+
+.aboutbbright p {
+  line-height: 1.6; /* Improve readability */
+  font-size: 16px; /* Adjust font size */
+  color: #333; /* Darker color for the text */
+}
+
+.aboutproducts {
+  background-color: #9b6a36; /* Brown background color */
+  padding: 20px 0; /* Add some padding for spacing */
+  text-align: center; /* Center the text */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  margin-top: 30px; /* Space above the section */
+}
+
+.aboutproducts a {
+  color: #edebe5; /* Light text color for contrast */
+  font-size: 24px; /* Increase font size */
+  font-weight: bold; /* Make the text bold */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
+  padding: 10px 20px; /* Add padding inside the button */
+  border: 2px solid #edebe5; /* Border for the button */
+  border-radius: 5px; /* Rounded corners for the button */
+}
+
+.aboutproducts a:hover {
+  color: #9b6a36; /* Invert colors on hover */
+  background-color: #edebe5; /* Background color change on hover */
+}
+
+.doubpic {
+  display: flex; /* Align sections in a row */
+  justify-content: center; /* Space between images */
+  align-items: center; /* Center the images vertically */
+  margin-top: 30px; /* Space above the section */
+}
+
+.doubpic section {
+  text-align: center; /* Center the images */
+  padding: 10px; /* Add some padding */
+}
+
+.doubpic img {
+  max-width: 80%; /* Further reduce the image size within its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: Add rounded corners to images */
+  max-height: 400px; /* Limit the height for a more compact display */
+}
+
+.bridle {
+  background-color: #b37d43; /* Use the brown color for background */
+  color: #edebe5; /* Light text color for contrast */
+  padding: 30px 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center align text */
+  margin-top: 40px; /* Space above the section */
+}
+
+.bridle h3 {
+  font-size: 28px; /* Increase font size for emphasis */
+  font-weight: bold; /* Make the text bold */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  margin-bottom: 20px; /* Space below the heading */
+  letter-spacing: 1px; /* Slightly increase letter spacing */
+  text-decoration: underline; /* Add an underline */
+  text-decoration-color: #9b6a36; /* Optional: Color for the underline to match your design */
+}
+
+
+.bridle p {
+  font-size: 18px; /* Adjust font size for readability */
+  line-height: 1.6; /* Increase line height for better readability */
+  margin-bottom: 15px; /* Space below paragraphs */
+}
+
+.bottombutton {
+  text-align: center; /* Center the button */
+  padding: 30px 0; /* Add padding above and below the button */
+}
+
+.bottombutton .btn {
+  background-color: #9b6a36; /* Background color for the button */
+  color: #edebe5; /* Text color for the button */
+  border: none; /* Remove default border */
+  padding: 12px 24px; /* Adjust padding for the button */
+  text-align: center; /* Center text in the button */
+  text-decoration: none; /* Remove underline from link */
+  font-size: 16px; /* Font size for the button text */
+  cursor: pointer; /* Change cursor to pointer */
+  border-radius: 5px; /* Rounded corners for the button */
+  display: inline-block; /* Ensure the button does not stretch */
+  margin: 0; /* Remove default margin */
+}
+
+
+/*
+  ========================================
+ Contact Page
+  ========================================
+*/
+
+.contactpage {
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Add padding around the section */
+  background-color: #edebe5; /* Light beige background color */
+  color: #333; /* Darker text color for contrast */
+}
+
+.contactpage h2 {
+  font-size: 28px; /* Larger font size for heading */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.contactpage p {
+  font-size: 18px; /* Adjust font size for paragraph */
+  margin-bottom: 5px; /* Space below paragraphs */
+}
+
+.contactpage a {
+  color: #9b6a36; /* Brown color for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the link text bold */
+}
+
+.contactpage a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.contactform {
+  background-color: #9b6a36; /* Brown background color */
+  color: #edebe5; /* Light beige text color */
+  padding: 20px; /* Add padding around the form */
+  border-radius: 8px; /* Rounded corners for form container */
+  max-width: 600px; /* Limit width of the form container */
+  margin: 0 auto; /* Center the form container */
+}
+
+.contact-message {
+  text-align: center; /* Center-align text */
+  margin-bottom: 20px; /* Space below the message */
+}
+
+.contactform form {
+  display: flex; /* Flexbox layout for form */
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+.contactform label {
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: bold; /* Bold labels for emphasis */
+}
+
+.contactform input, .contactform textarea {
+  margin-bottom: 15px; /* Space below form elements */
+  padding: 10px; /* Add padding inside form elements */
+  border: 1px solid #ccc; /* Light border for form elements */
+  border-radius: 5px; /* Rounded corners for form elements */
+}
+
+.contactform button {
+  background-color: #edebe5; /* Light beige background for button */
+  color: #9b6a36; /* Brown text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add padding inside button */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Change cursor to pointer */
+  font-size: 16px; /* Font size for button text */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.contactform button:hover {
+  background-color: #9b6a36; /* Darken button background on hover */
+  color: #edebe5; /* Change text color on hover */
+}
+
+.alternative-contact {
+  text-align: center; /* Center-align text */
+  margin-top: 20px; /* Space above alternative contact */
+}
+
+.alternative-contact a {
+  color: #edebe5; /* Light beige color for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold link text */
+}
+
+.alternative-contact a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+  /******************************************
+  /* Responsive STYLES
+  /*******************************************/
+  @media only screen and (max-width: 768px) {
+    /* Body */
+    body {
+      margin: 0 10px; /* Reduce margin for smaller screens */
+    }
+  
+/* Header and Footer Flexbox Layout for Row */
+.primary-header, .primary-footer {
+  display: flex;
+  flex-direction: row; /* Ensure items are in a row */
+  justify-content: center; /* Center the content */
+  align-items: center; /* Align items vertically */
+}
+
+.primary-header .primary-nav ul, 
+.primary-footer .primary-nav ul {
+  flex-direction: row; /* Ensure the navigation items are in a row */
+  justify-content: center; /* Center the navigation items */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Flexbox for row layout */
+}
+
+.primary-header .primary-nav li, 
+.primary-footer .primary-nav li {
+  margin: 0 10px; /* Add space between the navigation items */
+}
+
+  
+    /* Home Intro Section */
+    .homeintro {
+      flex-direction: column; /* Stack sections vertically */
+      padding: 20px 10px; /* Adjust padding */
+    }
+  
+    .homeintro img {
+      margin-bottom: 15px; /* Reduce margin */
+    }
+  
+    /* Second Section */
+    .homesecond {
+      flex-direction: column; /* Stack sections vertically */
+      padding: 20px 10px; /* Adjust padding */
+    }
+  
+    .homesecond img {
+      margin-bottom: 15px; /* Reduce margin */
+    }
+  
+    /* Call-to-action section */
+    .call-to-action {
+      padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .call-to-action h3 {
+      font-size: 24px; /* Adjust font size */
+    }
+  
+    .call-to-action p {
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    .cta-btn {
+      padding: 10px 20px; /* Adjust button padding */
+    }
+  
+    /* Home Close Section */
+    .homeclose {
+      padding: 20px 10px; /* Adjust padding */
+    }
+  
+    .homeclose img {
+      width: 100%; /* Ensure image scales within container */
+    }
+  
+    /* Social Media */
+    .socmed {
+      flex-direction: row; /* Ensure icons remain in a row */
+      justify-content: center; /* Center the icons */
+      gap: 20px; /* Adjust spacing between icons */
+    }
+  
+    .socmed img {
+      width: 30px; /* Adjust icon size for smaller screens */
+    }
+  
+    /* Footer */
+    .sc-footer {
+      padding-right: 10px; /* Reduce padding */
+      text-align: center; /* Center footer content on mobile */
+      display: flex;
+      justify-content: center; /* Align content in a row */
+      align-items: center; /* Center vertically */
+      gap: 10px; /* Add space between footer items */
+    }
+  
+    .sc-footer a img {
+      width: 18px; /* Adjust footer icon size */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .abouttrio {
+      display: flex; /* Flexbox layout */
+      flex-direction: row; /* Ensure images are in a row */
+      align-items: center; /* Center images vertically */
+      justify-content: center; /* Center images horizontally */
+      gap: 20px; /* Space between images */
+      padding: 20px; /* Optional: Add padding around the section */
+    }
+    
+    .abouttrio img {
+      width: 100%; /* Allow images to take full width of their container */
+      max-width: 300px; /* Optional: Adjust the maximum width of images */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 5px; /* Optional: Add rounded corners */
+      transition: transform 0.3s; /* Optional: Add hover effect */
+    }
+    
+    .abouttrio img:hover {
+      transform: scale(1.05); /* Optional: Slightly enlarge on hover */
+    }
+  
+    .aboutbb {
+      flex-direction: column; /* Stack left and right sections vertically */
+      text-align: center; /* Center-align text in both sections */
+    }
+  
+    .aboutbbleft,
+    .aboutbbright {
+      flex: none; /* Remove flex properties */
+      width: 100%; /* Ensure sections take full width */
+    }
+  
+    .aboutbbleft img {
+      max-width: 80%; /* Adjust logo size for smaller screens */
+      margin-top: 20px; /* Add space above the logo */
+    }
+  
+    .doubpic {
+      flex-direction: row; /* Stack images vertically */
+      align-items: center; /* Center images horizontally */
+    }
+  
+    .doubpic img {
+      max-width: 90%; /* Reduce image size for smaller screens */
+      max-height: 200px; /* Limit height for a more compact display */
+    }
+  
+    .bridle {
+      padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .bridle h3 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+    }
+  
+    .bridle p {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  
+    .bottombutton .btn {
+      padding: 10px 20px; /* Adjust button padding */
+      font-size: 14px; /* Adjust font size */
+    }
+  }
+
+  /* Responsive styles for the intro section */
+@media (max-width: 768px) {
+  .product-page-intro h1 {
+    font-size: 28px; /* Smaller font size for medium screens */
+  }
+
+  .product-page-intro p {
+    font-size: 16px; /* Adjust font size for medium screens */
+    max-width: 90%; /* Increase max-width for better readability */
+  }
+}
+
+@media (max-width: 480px) {
+  .product-page-intro h1 {
+    font-size: 24px; /* Smaller font size for small screens */
+  }
+
+  .product-page-intro p {
+    font-size: 14px; /* Adjust font size for small screens */
+    max-width: 100%; /* Full width for better readability */
+  }
+}
+
+/* Responsive styles for the product container */
+@media (max-width: 768px) {
+  .product-container {
+    padding: 10px; /* Less padding on medium screens */
+  }
+
+  .product {
+    flex-direction: column; /* Stack image and information vertically */
+    align-items: center; /* Center align items */
+    max-width: 90%; /* Increase max-width for better readability */
+  }
+
+  .product-image img {
+    width: 150px; /* Smaller image on medium screens */
+  }
+
+  .product-info {
+    text-align: center; /* Center text in the info section */
+  }
+}
+
+@media (max-width: 480px) {
+  .product-container {
+    padding: 5px; /* Even less padding on small screens */
+  }
+
+  .product {
+    padding: 10px; /* Reduced padding for smaller screens */
+    max-width: 100%; /* Full width on small screens */
+  }
+
+  .product-image img {
+    width: 120px; /* Smaller image on small screens */
+  }
+
+  .product-info h1 {
+    font-size: 20px; /* Smaller font size for product title */
+  }
+
+  .product-info .description {
+    font-size: 14px; /* Smaller font size for description */
+  }
+
+  .product-info .price {
+    font-size: 18px; /* Smaller font size for price */
+  }
+}
